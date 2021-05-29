@@ -17,6 +17,18 @@
         app:layout_constraintTop_toTopOf="parent"
         tools:text="Previous result: 4" />
 
+    <TextView
+        android:id="@+id/input_hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="Input values from 0 to 2 147 483 647"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/min_value" />
+
     <EditText
         android:id="@+id/min_value"
         android:layout_width="200dp"
